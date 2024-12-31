@@ -1,0 +1,26 @@
+{
+  "name": "creatingpool",
+  "version": "1.0.0",
+  "description": "this is an example to inmplement postgresql",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandipsaha2005/learnPostgresql.git"
+  },
+  "author": "Sandip Saha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandipsaha2005/learnPostgresql/issues"
+  },
+  "homepage": "https://github.com/sandipsaha2005/learnPostgresql#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "pg": "^8.13.1"
+  }
+}
